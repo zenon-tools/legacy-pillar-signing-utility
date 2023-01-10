@@ -1,0 +1,13 @@
+name: legacy_pillar_signing_utility
+description: Zenon Legacy Pillar Signing Utility
+version: 0.0.2
+publish_to: none
+
+environment:
+  sdk: '>=2.14.0 <3.0.0'
+
+dependencies:
+  znn_swap_utility:
+      git:
+        url: https://github.com/zenon-network/znn_swap_utility.git
+        ref: 417d3a42bb0ce1f9fab5dd4d6e8481112afbbbfc
